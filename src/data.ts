@@ -1,4 +1,4 @@
-export const menu  = [
+export const menu = [
     {
         id: 1,
         itemTitle: "MAIN",
@@ -7,16 +7,15 @@ export const menu  = [
                 id: 1,
                 url: "/",
                 imgPath: "/home.svg",
-                linkText: "Home"
+                linkText: "Home",
             },
             {
                 id: 2,
                 url: "/users/1",
                 imgPath: "/user.svg",
-                linkText: "Profile"
-            }
-        ]
-            
+                linkText: "Profile",
+            },
+        ],
     },
     {
         id: 2,
@@ -26,27 +25,27 @@ export const menu  = [
                 id: 1,
                 url: "/users",
                 imgPath: "/user.svg",
-                linkText: "Users"
+                linkText: "Users",
             },
             {
                 id: 2,
                 url: "/products",
                 imgPath: "/product.svg",
-                linkText: "Products"
+                linkText: "Products",
             },
             {
                 id: 3,
                 url: "/orders",
                 imgPath: "/order.svg",
-                linkText: "Orders"
+                linkText: "Orders",
             },
             {
                 id: 4,
                 url: "/posts",
                 imgPath: "/post2.svg",
-                linkText: "Posts"
-            }
-        ]
+                linkText: "Posts",
+            },
+        ],
     },
     {
         id: 3,
@@ -56,27 +55,27 @@ export const menu  = [
                 id: 1,
                 url: "/",
                 imgPath: "/element.svg",
-                linkText: "Elements"
+                linkText: "Elements",
             },
             {
                 id: 2,
                 url: "/",
                 imgPath: "/note.svg",
-                linkText: "Notes"
+                linkText: "Notes",
             },
             {
                 id: 3,
                 url: "/",
                 imgPath: "/form.svg",
-                linkText: "Forms"
+                linkText: "Forms",
             },
             {
                 id: 4,
                 url: "/",
                 imgPath: "/calendar.svg",
-                linkText: "Calendar"
-            }
-        ]
+                linkText: "Calendar",
+            },
+        ],
     },
     {
         id: 4,
@@ -86,15 +85,15 @@ export const menu  = [
                 id: 1,
                 url: "/",
                 imgPath: "/setting.svg",
-                linkText: "Settings"
+                linkText: "Settings",
             },
             {
                 id: 2,
                 url: "/",
                 imgPath: "/backup.svg",
-                linkText: "Backups"
-            }
-        ]
+                linkText: "Backups",
+            },
+        ],
     },
     {
         id: 5,
@@ -104,17 +103,17 @@ export const menu  = [
                 id: 1,
                 url: "/",
                 imgPath: "/chart.svg",
-                linkText: "Charts"
+                linkText: "Charts",
             },
             {
                 id: 2,
                 url: "/",
                 imgPath: "/log.svg",
-                linkText: "Logs"
-            }
-        ]
-    }
-]
+                linkText: "Logs",
+            },
+        ],
+    },
+];
 
 export const topDealUsers = [
     {
@@ -122,51 +121,51 @@ export const topDealUsers = [
         img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1665472791/E-commerce/avatars/temp_image_20210601_141726_2ba2f5b9-4b97-432d-aa97-22a24e1d4959_hu6fih.jpg",
         username: "Solo Razafy",
         email: "tianatsimindrana@outlook.fr",
-        amount: "3.668"
+        amount: "3.668",
     },
     {
         id: 2,
         img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1617442008/registration/registration-form-2_uvqplj.png",
         username: "Mandres Tsiorifitia",
         email: "mandresy@gmail.com",
-        amount: "3.256"
+        amount: "3.256",
     },
     {
         id: 3,
         img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1606826350/avatar/emptyAvatar_pmgmof.jpg",
         username: "Anjatiana RAZAFY",
         email: "anja@yahoo.fr",
-        amount: "2.998"
+        amount: "2.998",
     },
     {
         id: 4,
         img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1606666267/samples/people/bicycle.jpg",
         username: "Harena Tsiorifitia",
         email: "harena@gmail.com",
-        amount: "1.256"
+        amount: "1.256",
     },
     {
         id: 5,
         img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1606666265/samples/people/boy-snow-hoodie.jpg",
         username: "Kanty",
         email: "kanty@outlook.fr",
-        amount: "4.500"
+        amount: "4.500",
     },
     {
         id: 6,
         img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1606666263/samples/people/smiling-man.jpg",
         username: "Adeline Watson",
         email: "adelin@gmail.com",
-        amount: "1.256"
+        amount: "1.256",
     },
     {
         id: 7,
         img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1606666261/samples/people/kitchen-bar.jpg",
         username: "Augusta Mc",
         email: "augusta@gmail.com",
-        amount: "3.234"
-    }
-]
+        amount: "3.234",
+    },
+];
 
 export const chartBoxUser = {
     color: "#8884d8",
@@ -176,15 +175,15 @@ export const chartBoxUser = {
     dataKey: "users",
     percentage: 45,
     chartData: [
-        {name: "Sun", users: 400},
-        {name: "Mon", users: 600},
-        {name: "Tue", users: 500},
-        {name: "Wed", users: 700},
-        {name: "Thu", users: 400},
-        {name: "Fri", users: 500},
-        {name: "Sat", users: 450},
+        { name: "Sun", users: 400 },
+        { name: "Mon", users: 600 },
+        { name: "Tue", users: 500 },
+        { name: "Wed", users: 700 },
+        { name: "Thu", users: 400 },
+        { name: "Fri", users: 500 },
+        { name: "Sat", users: 450 },
     ],
-}
+};
 
 export const chartBoxConversion = {
     color: "gold",
@@ -194,15 +193,15 @@ export const chartBoxConversion = {
     dataKey: "ratio",
     percentage: 12,
     chartData: [
-        {name: "Sun", ratio: 400},
-        {name: "Mon", ratio: 600},
-        {name: "Tue", ratio: 500},
-        {name: "Wed", ratio: 700},
-        {name: "Thu", ratio: 400},
-        {name: "Fri", ratio: 500},
-        {name: "Sat", ratio: 450},
+        { name: "Sun", ratio: 400 },
+        { name: "Mon", ratio: 600 },
+        { name: "Tue", ratio: 500 },
+        { name: "Wed", ratio: 700 },
+        { name: "Thu", ratio: 400 },
+        { name: "Fri", ratio: 500 },
+        { name: "Sat", ratio: 450 },
     ],
-}
+};
 
 export const chartBoxProduct = {
     color: "skyblue",
@@ -212,15 +211,15 @@ export const chartBoxProduct = {
     dataKey: "products",
     percentage: 21,
     chartData: [
-        {name: "Sun", products: 400},
-        {name: "Mon", products: 600},
-        {name: "Tue", products: 500},
-        {name: "Wed", products: 700},
-        {name: "Thu", products: 400},
-        {name: "Fri", products: 500},
-        {name: "Sat", products: 450},
+        { name: "Sun", products: 400 },
+        { name: "Mon", products: 600 },
+        { name: "Tue", products: 500 },
+        { name: "Wed", products: 700 },
+        { name: "Thu", products: 400 },
+        { name: "Fri", products: 500 },
+        { name: "Sat", products: 450 },
     ],
-}
+};
 
 export const chartBoxRevenue = {
     color: "teal",
@@ -230,15 +229,15 @@ export const chartBoxRevenue = {
     dataKey: "revenue",
     percentage: -12,
     chartData: [
-        {name: "Sun", revenue: 400},
-        {name: "Mon", revenue: 600},
-        {name: "Tue", revenue: 500},
-        {name: "Wed", revenue: 700},
-        {name: "Thu", revenue: 400},
-        {name: "Fri", revenue: 500},
-        {name: "Sat", revenue: 450},
+        { name: "Sun", revenue: 400 },
+        { name: "Mon", revenue: 600 },
+        { name: "Tue", revenue: 500 },
+        { name: "Wed", revenue: 700 },
+        { name: "Thu", revenue: 400 },
+        { name: "Fri", revenue: 500 },
+        { name: "Sat", revenue: 450 },
     ],
-}
+};
 
 //Bar chart Box Data
 export const barChartBoxRevenu = {
@@ -246,27 +245,434 @@ export const barChartBoxRevenu = {
     color: "#8884d8",
     dataKey: "profit",
     chartData: [
-        { name: "Sun", profit: "4000"},
-        { name: "Mon", profit: "3000"},
-        { name: "Tue", profit: "2000"},
-        { name: "Wed", profit: "2780"},
-        { name: "Thu", profit: "1890"},
-        { name: "Fri", profit: "2390"},
-        { name: "Sat", profit: "3490"}
-    ]
-}
+        { name: "Sun", profit: "4000" },
+        { name: "Mon", profit: "3000" },
+        { name: "Tue", profit: "2000" },
+        { name: "Wed", profit: "2780" },
+        { name: "Thu", profit: "1890" },
+        { name: "Fri", profit: "2390" },
+        { name: "Sat", profit: "3490" },
+    ],
+};
 
 export const barChartBoxVisit = {
     title: "Total Visit",
     color: "#FF8042",
     dataKey: "visit",
     chartData: [
-        { name: "Sun", visit: "4000"},
-        { name: "Mon", visit: "3000"},
-        { name: "Tue", visit: "2000"},
-        { name: "Wed", visit: "2780"},
-        { name: "Thu", visit: "1890"},
-        { name: "Fri", visit: "2390"},
-        { name: "Sat", visit: "3490"}
-    ]
-}
+        { name: "Sun", visit: "4000" },
+        { name: "Mon", visit: "3000" },
+        { name: "Tue", visit: "2000" },
+        { name: "Wed", visit: "2780" },
+        { name: "Thu", visit: "1890" },
+        { name: "Fri", visit: "2390" },
+        { name: "Sat", visit: "3490" },
+    ],
+};
+
+export const userRows = [
+    {
+        id: 1,
+        img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1665472791/E-commerce/avatars/temp_image_20210601_141726_2ba2f5b9-4b97-432d-aa97-22a24e1d4959_hu6fih.jpg",
+        lastName: "Razafy",
+        firstName: "Solo",
+        email: "tianatsimindrana@outlook.fr",
+        phone: "123 456 789",
+        createdAt: "01.02.2023",
+        verified: true,
+    },
+    {
+        id: 2,
+        img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1617442008/registration/registration-form-2_uvqplj.png",
+        lastName: "Tsiorifitia",
+        firstName: "Mandresy",
+        email: "mandresy@gmail.com",
+        phone: "123 456 789",
+        createdAt: "01.02.2023",
+        verified: false,
+    },
+    {
+        id: 3,
+        img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1606826350/avatar/emptyAvatar_pmgmof.jpg",
+        lastName: "RAZAFY",
+        firstName: "Anjatiana",
+        email: "anja@yahoo.fr",
+        phone: "123 456 789",
+        createdAt: "01.02.2023",
+        verified: true,
+    },
+    {
+        id: 4,
+        img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1606666267/samples/people/bicycle.jpg",
+        lastName: "Tsiorifitia",
+        firstName: "Harena",
+        email: "harena@gmail.com",
+        phone: "123 456 789",
+        createdAt: "01.02.2023",
+        verified: true,
+    },
+    {
+        id: 5,
+        img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1606666265/samples/people/boy-snow-hoodie.jpg",
+        lastName: "RAHARY",
+        firstName: "Kanty",
+        email: "kanty@outlook.fr",
+        phone: "123 456 789",
+        createdAt: "01.02.2023",
+        verified: false,
+    },
+    {
+        id: 6,
+        img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1606666263/samples/people/smiling-man.jpg",
+        lastName: "Watson",
+        firstName: "Adeline",
+        email: "adelin@gmail.com",
+        phone: "123 456 789",
+        createdAt: "01.02.2023",
+        verified: false,
+    },
+    {
+        id: 7,
+        img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1606666261/samples/people/kitchen-bar.jpg",
+        lastName: "Mc",
+        firstName: "Augusta",
+        email: "augusta@gmail.com",
+        phone: "123 456 789",
+        createdAt: "01.02.2023",
+        verified: false,
+    },
+    {
+        id: 8,
+        img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1665472791/E-commerce/avatars/temp_image_20210601_141726_2ba2f5b9-4b97-432d-aa97-22a24e1d4959_hu6fih.jpg",
+        lastName: "Mahefa",
+        firstName: "Tiana",
+        email: "mahefa@outlook.fr",
+        phone: "123 456 789",
+        createdAt: "01.02.2023",
+        verified: true,
+    },
+    {
+        id: 9,
+        img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1617442008/registration/registration-form-2_uvqplj.png",
+        lastName: "RAJAO",
+        firstName: "Marie",
+        email: "rajao@gmail.com",
+        phone: "123 456 789",
+        createdAt: "01.02.2023",
+        verified: false,
+    },
+    {
+        id: 10,
+        img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1606826350/avatar/emptyAvatar_pmgmof.jpg",
+        lastName: "RANDRENJA",
+        firstName: "Malala",
+        email: "malala@yahoo.fr",
+        phone: "123 456 789",
+        createdAt: "01.02.2023",
+        verified: false,
+    },
+    {
+        id: 11,
+        img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1606666267/samples/people/bicycle.jpg",
+        lastName: "Madagascar",
+        firstName: "Maki",
+        email: "maki@gmail.com",
+        phone: "123 456 789",
+        createdAt: "01.02.2023",
+        verified: false,
+    },
+    {
+        id: 12,
+        img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1606666265/samples/people/boy-snow-hoodie.jpg",
+        lastName: "Barea",
+        firstName: "Mal",
+        email: "mal@outlook.fr",
+        phone: "123 456 789",
+        createdAt: "01.02.2023",
+        verified: true,
+    },
+    {
+        id: 13,
+        img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1606666263/samples/people/smiling-man.jpg",
+        lastName: "LALAHY",
+        firstName: "mahery",
+        email: "mahery@gmail.com",
+        phone: "123 456 789",
+        createdAt: "01.02.2023",
+        verified: true,
+    },
+    {
+        id: 14,
+        img: "https://res.cloudinary.com/misangy-dev1/image/upload/v1606666261/samples/people/kitchen-bar.jpg",
+        lastName: "ANDRANA",
+        firstName: "Augustin",
+        email: "andrana@gmail.com",
+        phone: "123 456 789",
+        createdAt: "01.02.2023",
+        verified: true,
+    },
+];
+
+export const products = [
+    {
+        id: 1,
+        img: "https://store.sony.com.au/on/demandware.static/-/Sites-sony-master-catalog/default/dw1b537bbb/images/PLAYSTATION5W/PLAYSTATION5W.png",
+        title: "Playstation 5 Digital Edition",
+        color: "white",
+        producer: "Sony",
+        price: "$250.99",
+        createdAt: "01.02.2023",
+        inStock: true,
+    },
+    {
+        id: 2,
+        img: "https://www.pngmart.com/files/6/Dell-Laptop-PNG-Image.png",
+        title: "Dell Laptop KR211822",
+        color: "black",
+        producer: "Dell",
+        price: "$499.99",
+        createdAt: "01.02.2023",
+        inStock: true,
+    },
+    {
+        id: 3,
+        img: "http://images.samsung.com/is/image/samsung/uk-led-tv-hg40ed670ck-hg40ed670ckxxu-001-front",
+        title: "Samsung TV 4K SmartTV",
+        color: "gray",
+        producer: "Samsung",
+        price: "$999.49",
+        createdAt: "01.02.2023",
+        inStock: true,
+    },
+    {
+        id: 4,
+        img: "https://raylo.imgix.net/iphone-14-blue.png",
+        title: "Apple Iphone 14 Pro Max",
+        color: "white",
+        producer: "Apple",
+        price: "$799.49",
+        createdAt: "01.02.2023",
+        inStock: true,
+    },
+    {
+        id: 5,
+        img: "https://www.signify.com/b-dam/signify/en-aa/about/news/2020/20200903-movie-night-essentials-popcorn-ice-cream-and-the-new-philips-hue-play-gradient-lightstrip/packaging-lighstrip.png",
+        title: "Philips Hue Play Gradient",
+        color: "rainbow",
+        producer: "Philips",
+        price: "$39.99",
+        createdAt: "01.02.2023",
+    },
+    {
+        id: 6,
+        img: "https://www.smartworld.it/wp-content/uploads/2019/09/High_Resolution_PNG-MX-Master-3-LEFT-GRAPHITE.png",
+        title: "Logitech MX Master 3",
+        color: "black",
+        producer: "Logitech",
+        price: "$59.49",
+        createdAt: "01.02.2023",
+        inStock: true,
+    },
+    {
+        id: 7,
+        img: "https://www.pngarts.com/files/7/Podcast-Mic-PNG-Picture.png",
+        title: "Rode Podcast Microphone",
+        color: "gray",
+        producer: "Rode",
+        price: "$119.49",
+        createdAt: "01.02.2023",
+    },
+    {
+        id: 8,
+        img: "https://5.imimg.com/data5/SW/VM/MY-5774620/toshiba-split-ac-2-ton-3-star-rated-ras-24s3ks-500x500.png",
+        title: "Toshiba Split AC 2",
+        color: "white",
+        producer: "Toshiba",
+        price: "$899.99",
+        createdAt: "01.02.2023",
+        inStock: true,
+    },
+    {
+        id: 9,
+        img: "https://img.productz.com/review_image/102489/preview_sony-kdl-50w800b-50-inch-hdtv-review-superb-picture-102489.png",
+        title: "Sony Bravia KDL-47W805A",
+        color: "black",
+        producer: "Sony",
+        price: "$970.49",
+        createdAt: "01.02.2023",
+    },
+    {
+        id: 10,
+        img: "https://venturebeat.com/wp-content/uploads/2015/07/As_AO1-131_gray_nonglare_win10_03.png?fit=1338%2C1055&strip=all",
+        title: "Acer Laptop 16 KL-4804",
+        color: "black",
+        producer: "Acer",
+        price: "$599.99",
+        createdAt: "01.02.2023",
+        inStock: true,
+    },
+];
+
+export const singleUser = {
+    id: 1,
+    title: "John Doe",
+    img: "https://images.pexels.com/photos/17397364/pexels-photo-17397364.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    info: {
+        username: "Johndoe99",
+        fullname: "John Doe",
+        email: "johndoe@gmail.com",
+        phone: "123 456 789",
+        status: "verified",
+    },
+    chart: {
+        dataKeys: [
+            { name: "visits", color: "#82ca9d" },
+            { name: "clicks", color: "#8884d8" },
+        ],
+        data: [
+            {
+                name: "Sun",
+                visits: 4000,
+                clicks: 2400,
+            },
+            {
+                name: "Mon",
+                visits: 3000,
+                clicks: 1398,
+            },
+            {
+                name: "Tue",
+                visits: 2000,
+                clicks: 3800,
+            },
+            {
+                name: "Wed",
+                visits: 2780,
+                clicks: 3908,
+            },
+            {
+                name: "Thu",
+                visits: 1890,
+                clicks: 4800,
+            },
+            {
+                name: "Fri",
+                visits: 2390,
+                clicks: 3800,
+            },
+            {
+                name: "Sat",
+                visits: 3490,
+                clicks: 4300,
+            },
+        ],
+    },
+    activities: [
+        {
+            text: "John Doe purchased Playstation 5 Digital Edition",
+            time: "3 day ago",
+        },
+        {
+            text: "John Doe added 3 items into their wishlist",
+            time: "1 week ago",
+        },
+        {
+            text: "John Doe purchased Sony Bravia KD-32w800",
+            time: "2 weeks ago",
+        },
+        {
+            text: "John Doe reviewed a product",
+            time: "1 month ago",
+        },
+        {
+            text: "John Doe added 1 items into their wishlist",
+            time: "1 month ago",
+        },
+        {
+            text: "John Doe reviewed a product",
+            time: "2 months ago",
+        },
+    ],
+};
+
+export const singleProduct = {
+    id: 1,
+    title: "Playstation 5 Digital Edition",
+    img: "https://store.sony.com.au/on/demandware.static/-/Sites-sony-master-catalog/default/dw1b537bbb/images/PLAYSTATION5W/PLAYSTATION5W.png",
+    info: {
+        productId: "Ps5SDF1156d",
+        color: "white",
+        price: "$250.99",
+        producer: "Sony",
+        export: "Japan",
+    },
+    chart: {
+        dataKeys: [
+            { name: "visits", color: "#82ca9d" },
+            { name: "orders", color: "#8884d8" },
+        ],
+        data: [
+            {
+                name: "Sun",
+                visits: 4000,
+                orders: 2400,
+            },
+            {
+                name: "Mon",
+                visits: 3000,
+                orders: 1398,
+            },
+            {
+                name: "Tue",
+                visits: 2000,
+                orders: 3800,
+            },
+            {
+                name: "Wed",
+                visits: 2780,
+                orders: 3908,
+            },
+            {
+                name: "Thu",
+                visits: 1890,
+                orders: 4800,
+            },
+            {
+                name: "Fri",
+                visits: 2390,
+                orders: 3800,
+            },
+            {
+                name: "Sat",
+                visits: 3490,
+                orders: 4300,
+            },
+        ],
+    },
+    activities: [
+        {
+            text: "John Doe purchased Playstation 5 Digital Edition",
+            time: "3 day ago",
+        },
+        {
+            text: "Jane Doe added Playstation 5 Digital Edition into their wishlist",
+            time: "1 week ago",
+        },
+        {
+            text: "Mike Doe purchased Playstation 5 Digital Edition",
+            time: "2 weeks ago",
+        },
+        {
+            text: "Anna Doe reviewed the product",
+            time: "1 month ago",
+        },
+        {
+            text: "Michael Doe added Playstation 5 Digital Edition into their wishlist",
+            time: "1 month ago",
+        },
+        {
+            text: "Helen Doe reviewed the product",
+            time: "2 months ago",
+        },
+    ],
+};

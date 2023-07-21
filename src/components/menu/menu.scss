@@ -1,4 +1,6 @@
 @import "../../styles/variables.scss";
+@import "../../styles/responsive.scss";
+
 .menu {
     .item {
         display: flex;
@@ -12,6 +14,10 @@
             font-weight: 200;
             color: $soft-color;
             text-transform: uppercase;
+
+            @include lg {
+                display: none;
+            }
         }
 
         .link {
@@ -24,6 +30,12 @@
 
             &:hover {
                 background-color: $soft-bg;
+            }
+        }
+
+        .listItem_title {
+            @include lg {
+                display: none;
             }
         }
     }
